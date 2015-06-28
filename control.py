@@ -3,7 +3,7 @@ import time
 import os
 import urllib2
 
-FFMPEG_CMD = 'ffmpeg -i rtsp://admin:12345@lillis.duckdns.org/h264/ch1/main/av_stream -vcodec flv http://localhost:8090/feed1.ffm'
+FFMPEG_CMD = './ffmpeg -i rtsp://admin:12345@lillis.duckdns.org/h264/ch1/main/av_stream -vcodec flv http://localhost:8090/feed1.ffm'
 
 
 def is_client_connected(stat):
